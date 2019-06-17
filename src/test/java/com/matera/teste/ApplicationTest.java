@@ -44,7 +44,7 @@ public class ApplicationTest {
 
 
     @Test
-    public void testaTempoDeCasa(){
+    public void testaArray(){
         Funcionario p1 = new Funcionario("Joao");
         Funcionario p2 = new Funcionario("Pedro");
         Funcionario p3 = new Funcionario("Antonio");

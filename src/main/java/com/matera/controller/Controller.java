@@ -9,8 +9,8 @@ import java.util.*;
 @RestController
 public class Controller {
 
-    @GetMapping("/pessoas")
-    public List<Funcionario> whatever() {
+    @GetMapping("/funcionario")
+    public List<Funcionario> returnAquisition() {
 
 
         Funcionario p1 = new Funcionario("Joao");
