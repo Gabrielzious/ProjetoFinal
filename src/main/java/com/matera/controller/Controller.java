@@ -1,6 +1,6 @@
 package com.matera.controller;
 
-import com.matera.objetoFuncionario.Funcionario;
+import com.matera.model.Funcionario;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -22,22 +22,22 @@ public class Controller {
         Funcionario p7 = new Funcionario("Carlos");
 
 
-        List<Funcionario> listaNego = new ArrayList<Funcionario>();
-        listaNego.add(p1);
-        listaNego.add(p2);
-        listaNego.add(p3);
-        listaNego.add(p4);
-        listaNego.add(p5);
-        listaNego.add(p6);
-        listaNego.add(p7);
+        List<Funcionario> listaFunc = new ArrayList<Funcionario>();
+        listaFunc.add(p1);
+        listaFunc.add(p2);
+        listaFunc.add(p3);
+        listaFunc.add(p4);
+        listaFunc.add(p5);
+        listaFunc.add(p6);
+        listaFunc.add(p7);
 
-        listaNego.remove(p5);
+        listaFunc.remove(p5);
 
-        return listaNego;
+        return listaFunc;
 
     }
 
-    @RequestMapping("/jesus")
+    @RequestMapping("/requestTest")
             public String execute(){
         System.out.println("Executando um Spring");
         return "ok";

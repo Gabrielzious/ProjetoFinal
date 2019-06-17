@@ -16,10 +16,9 @@
 
 package com.matera.teste;
 
-import static org.hamcrest.CoreMatchers.containsString;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 
-import com.matera.objetoFuncionario.Funcionario;
+import com.matera.model.Funcionario;
 import com.matera.controller.Controller;
 import org.junit.Assert;
 import org.junit.Test;

@@ -1,4 +1,4 @@
-package com.matera.objetoFuncionario;
+package com.matera.model;
 
 public class Funcionario {
 
