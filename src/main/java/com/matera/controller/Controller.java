@@ -12,6 +12,7 @@ public class Controller {
     @GetMapping("/funcionario")
     public List<Funcionario> returnAquisition() {
 
+        // TODO fazer varias coisas
 
         Funcionario p1 = new Funcionario("Joao");
         Funcionario p2 = new Funcionario("Pedro");
